@@ -45,7 +45,7 @@ export default function Home() {
         <h1>{db.title}</h1>
       </Widget.Header>
       <Widget.Content>
-        <p>Lorem ipsum popoppop</p>
+        <p>Lorem ipsum a</p>
       </Widget.Content>
     </Widget>
 
