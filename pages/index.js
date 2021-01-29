@@ -4,6 +4,8 @@ import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import Head from '../src/components/Head'
+
 
 
 const Title = styled.h1`
@@ -33,7 +35,10 @@ const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-  <QuizBackground backgroundImage={db.bg}>
+   
+
+  <QuizBackground backgroundImage={db.bg}> 
+  <Head/>
     <QuizContainer>
     <Widget>
       <Widget.Header>
